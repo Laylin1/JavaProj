@@ -11,6 +11,8 @@ target/
 *.iws
 *.iml
 *.ipr
+.jar
+.exe
 
 ### Eclipse ###
 .apt_generated
