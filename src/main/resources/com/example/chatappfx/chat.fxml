@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox spacing="10" alignment="TOP_LEFT" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.chatappfx.Controller">
+   <ScrollPane fx:id="chatScrollPane" prefWidth="400" prefHeight="300" hbarPolicy="AS_NEEDED" vbarPolicy="AS_NEEDED">
+      <content>
+         <TextFlow fx:id="chatArea" />
+      </content>
+   </ScrollPane>
+
+   <!-- Поле для ввода сообщения -->
+   <TextField fx:id="messageField" promptText="Enter your message..." />
+   <Button text="Send" onAction="#sendMessage" />
+</VBox>

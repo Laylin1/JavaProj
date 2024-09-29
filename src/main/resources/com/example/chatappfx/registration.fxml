@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.chatappfx.RegistrationController">
+    <TextField fx:id="nicknameField" promptText="Enter Nickname" />
+    <PasswordField fx:id="passwordField" promptText="Enter Password" />
+    <Button text="Register/Login" onAction="#handleRegisterOrLogin" />
+</VBox>
